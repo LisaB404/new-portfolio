@@ -1,0 +1,12 @@
+.projects-container {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 24px;
+  padding: 2em;
+  display: flex;
+  flex-direction: row;
+  background-color: var(--second-bg-clr);
+}

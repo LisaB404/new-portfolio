@@ -1,0 +1,121 @@
+.hero-container {
+  min-height: 80vh;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column-reverse;
+  align-items: center;
+  text-align: center;
+  font-size: 24px;
+  padding: 2em;
+  background-color: var(--second-bg-clr);
+
+  h1 {
+    font-size: 38px;
+    line-height: 1.2;
+  }
+
+  h2 {
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height: 2;
+  }
+}
+
+.name {
+  font-weight: bold;
+  background: linear-gradient(
+    to right,
+    #3b82f6,
+    var(--tertiary-clr),
+    var(--primary-clr)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.typewriter-container {
+  position: relative;
+  margin-top: 1.5em;
+  padding-top: 1.5em;
+  max-width: 40ch;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  white-space: normal;
+}
+
+@keyframes blink {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+
+.hero-btns {
+  padding-top: 2em;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+
+  .btn {
+    padding: 1em;
+    border: 2px solid var(--primary-clr);
+    border-radius: 20px;
+    margin: 1em;
+    font-size: 14px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--primary-clr);
+    background-color: var(--bg-clr);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .btn:hover {
+    color: var(--bg-clr);
+    background-color: var(--primary-clr);
+  }
+}
+
+.mypic {
+  width: 180px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 50px;
+  padding-bottom: 1em;
+}
+
+.section-wave {
+  color: var(--bg-clr);
+  width: 100%;
+  height: 100px;
+  display: block;
+  transform: rotate(180deg);
+}
+
+@media (min-width: 768px) {
+  .hero-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .hero-btns {
+    flex-direction: row;
+    padding-top: 3em;
+
+    .btn {
+      padding-inline: 2em;
+    }
+  }
+  .mypic {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50px;
+  }
+}

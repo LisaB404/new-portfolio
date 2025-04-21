@@ -1,0 +1,106 @@
+/* Navbar styles for mobile */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: var(--primary-clr);
+    color: var(--clear-clr);
+    z-index: 1000;
+    height: 5em;
+    padding: 1em 1.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .menu {
+    display: none;
+    flex-direction: column;
+    gap: 1em;
+    position: absolute;
+    top: 5em;
+    right: 1em;
+    background: var(--primary-clr);
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+nav .menu.active {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    right: 0;
+    border-radius: 0px;
+}
+
+nav .menu a {
+    color: var(--clear-clr);
+    text-decoration: none;
+    padding-block: 0.5em;
+    padding-inline: 1em;
+}
+
+nav .menu a:hover {
+    background: var(--secondary-clr);
+    border-radius: 4px;
+}
+/*Burger menu*/
+nav .hamburger {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    cursor: pointer;
+    margin-left: auto; /* Spinge il menu a destra */
+}
+
+nav .hamburger span {
+    height: 3px;
+    width: 25px;
+    background-color: var(--clear-clr);
+    border-radius: 25px;
+    transition: .3s ease;
+}
+
+.hamburger span:nth-child(1) {
+    top: 25%;
+}
+
+.hamburger span:nth-child(3) {
+    top: 75%;
+}
+
+.hamburger.active span:nth-child(1) {
+    top: 50%;
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.active span:nth-child(2) {
+    opacity: 0; /* Nasconde il secondo span */
+}
+
+.hamburger.active span:nth-child(3) {
+    top: 50%;
+    transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* Desktop styles */
+@media (min-width: 768px) {
+    nav {
+        padding: 2em 2em;
+    }
+
+    nav .menu {
+        display: flex;
+        flex-direction: row;
+        gap: 2em;
+        position: static;
+        background: none;
+        padding: 0;
+        box-shadow: none;
+    }
+
+    nav .hamburger {
+        display: none;
+    }
+}

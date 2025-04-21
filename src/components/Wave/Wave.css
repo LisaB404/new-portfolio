@@ -1,0 +1,7 @@
+.section-wave {
+    color: var(--second-bg-clr);
+    width: 100%;
+    height: 100px;
+    display: block;
+    transform: rotate(180deg);
+  }
