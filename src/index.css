@@ -88,10 +88,30 @@ body {
 
 /* Footer styles */
 footer {
+  font-size: 14px;
   background: var(--primary-clr);
   color: white;
   text-align: center;
-  padding: 1em;
+  padding: 1em 2em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  .social-icons{
+    gap: 0.5em;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .social {
+    color: var(--clear-clr);
+  }
+
+  .social:hover{
+    color: var(--tertiary-clr);
+  }
 }
 
 

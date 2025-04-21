@@ -20,7 +20,7 @@ export default function Hero() {
               Contact Me
             </a>
             <a
-              href="https://www.linkedin.com/in/lisabortoli/"
+              href="https://www.linkedin.com/in/lisabortoli"
               className="btn"
               target="_blank"
             >

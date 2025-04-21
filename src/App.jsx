@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import './index.css';
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 import Menu from './components/Menu/Menu';
 import Hero from './sections/Hero/Hero';
 import About from './sections/About/About';
@@ -39,7 +40,13 @@ function App() {
       </main>
 
       <footer>
-        &copy; 2025 Lisa Bortoli. All rights reserved. + social icons
+      <p className='footer-text'>
+        &copy; 2025 Lisa Bortoli. All rights reserved.
+        </p>
+        <div className='social-icons'>
+        <a className='social' href='https://github.com/LisaB404' target="_blank"> <FaGithub /></a>
+        <a className='social' href='https://www.linkedin.com/in/lisabortoli' target="_blank"> <FaLinkedin /> </a>
+        </div>
       </footer>
     </>
   );
