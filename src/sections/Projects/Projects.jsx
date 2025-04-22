@@ -7,7 +7,7 @@ export default function Projects() {
     <>
       <Wave style={{ transform: "rotate(0deg)" }} />
       <div className="projects-container">
-      <h2>Projects</h2>
+      <h2 className="page-title">Projects</h2>
       </div>
       <Wave />
     </>
