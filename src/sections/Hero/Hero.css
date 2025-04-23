@@ -1,5 +1,5 @@
 .hero-container {
-  min-height: 75vh;
+  min-height: 80vh;
   display: flex;
   justify-content: space-evenly;
   flex-direction: column-reverse;
@@ -8,6 +8,7 @@
   font-size: 24px;
   padding: 2em;
   background-color: var(--second-bg-clr);
+  margin-top: 3em;
 
   h1 {
     font-size: 38px;

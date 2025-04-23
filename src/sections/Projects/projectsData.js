@@ -58,14 +58,14 @@ export const projectData = [
     imageurl: "assets/img/typescript.png",
     name: "TypeScript",
     description:
-      "Project #4 Project for the TypeScript course - Start2Impact Master in Full Stack Development. TypeScript system to model the operational structure of a company.",
+      "Project #4 Project for the TypeScript course. It is a TypeScript system to model the operational structure of a company.",
     link: "https://codepen.io/LisaB404/pen/MYgrPPq",
   },
   {
     id: 6,
     imageurl: "assets/img/book-searcher.png",
     name: "Book Searcher - JavaScript Advanced",
-    description: "Project #3 Project for the Javascript Advanced course.",
+    description: "Project #3 Project for the Javascript Advanced course. Made with HTML, CSS, JavaScript, Webpack, Lodash, Axios and the Open Library API.",
     link: "https://booksearcher-lisab.netlify.app/",
   },
   {
@@ -73,7 +73,7 @@ export const projectData = [
     imageurl: "assets/img/counter.png",
     name: "Counter - JavaScript Basic",
     description:
-      "Project #2 A basic Counter created with Javascript for the Start2Impact Master in Full Stack Development.",
+      "Project #2 A basic Counter created with Javascript, HTML and CSS for the Start2Impact Master in Full Stack Development.",
     link: "https://basic-js-counter-lisab.netlify.app",
   },
   {

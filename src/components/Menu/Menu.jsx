@@ -8,15 +8,19 @@ export default function Menu() {
     setMenuActive(prev => !prev);
   };
 
+  const closeMenu = () => {
+    setMenuActive(false);
+  };
+
   return (
     <nav>
       <div className="logo"><span className="gradient-text">Lisa B.</span></div>
 
       <div className={`menu${menuActive ? ' active' : ''}`}>
-        <a href="/Hero">Home</a>
-        <a href="#section2">About Me</a>
-        <a href="#section3">Projects</a>
-        <a href="#section4">Contacts</a>
+        <a href="/Hero" onClick={closeMenu}>Home</a>
+        <a href="#section2" onClick={closeMenu}>About Me</a>
+        <a href="#section3" onClick={closeMenu}>Projects</a>
+        <a href="#section4" onClick={closeMenu}>Contacts</a>
       </div>
 
       <div
