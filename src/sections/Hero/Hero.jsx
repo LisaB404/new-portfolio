@@ -12,9 +12,9 @@ export default function Hero() {
             Hi! My name is <span className="name">Lisa</span>
           </h1>
           <h2>Junior Full Stack Developer</h2>
-          <p className="typewriter-container">
+          <div className="typewriter-container">
             <Typewriter />
-          </p>
+          </div>
           <div className="hero-btns">
             <a href="#section4" className="btn">
               Contact Me
@@ -30,7 +30,7 @@ export default function Hero() {
         </div>
         <div className="hero-pic">
           <img
-            class="mypic"
+            className="mypic"
             src="assets/img/lisa.png"
             alt="avatar"
             title="Lisa's avatar"

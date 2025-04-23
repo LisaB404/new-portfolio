@@ -57,21 +57,21 @@ export default function Contacts() {
       <form onSubmit={handleSubmit}>
         <div className="row form">
           <div className="col-12 col-md-6 mb-3">
-            <label for="name" className="form-label">
+            <label htmlFor="name" className="form-label">
               Name
             </label>
             <input
               type="text"
               id="name"
               name="Name"
-              autocomplete="given-name"
+              autoComplete="given-name"
               className="form-control"
               placeholder="Name"
               required
             />
           </div>
           <div className="col-12 col-md-6 mb-3">
-            <label for="mail" className="form-label">
+            <label htmlFor="mail" className="form-label">
               E-mail
             </label>
             <input
@@ -86,7 +86,7 @@ export default function Contacts() {
         </div>
         <div className="row form">
           <div className="col mb-3">
-            <label for="subject" className="form-label">
+            <label htmlFor="subject" className="form-label">
               Subject:
             </label>
             <input
@@ -101,7 +101,7 @@ export default function Contacts() {
         </div>
         <div className="row form">
           <div className="col mb-3">
-            <label for="message" className="form-label">
+            <label htmlFor="message" className="form-label">
               Send me a message:
             </label>
             <textarea

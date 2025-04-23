@@ -1,12 +1,38 @@
 .projects-container {
-  min-height: 80vh;
+  min-height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   font-size: 24px;
-  padding: 2em;
+  padding: 1em 2em;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   background-color: var(--second-bg-clr);
+}
+
+.carousel-wrapper {
+  position: relative;
+  padding-bottom: 2em;
+  width: 85%;
+}
+
+/* Style for dots outside */
+.react-multi-carousel-dot-list {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  left: 0;
+  right: 0;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  color: var(--secondary-clr);
+}
+
+/* active dot*/
+.custom-dot-list-style .react-multi-carousel-dot--active button {
+  background-color: var(--secondary-clr);
 }

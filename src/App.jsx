@@ -32,10 +32,10 @@ function App() {
 
       <main className="sections">
       <>
-        <div id="section1"> <Hero /> </div>
-        <div id="section2"> <About /> </div>
-        <div id="section3"> <Projects /> </div>
-        <div id="section4"> <Contacts /> </div>
+        <div id="section1" className="section"> <Hero /> </div>
+        <div id="section2" className="section"> <About /> </div>
+        <div id="section3" className="section"> <Projects /> </div>
+        <div id="section4" className="section"> <Contacts /> </div>
         </>
       </main>
 
