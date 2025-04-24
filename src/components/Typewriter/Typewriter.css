@@ -10,6 +10,7 @@
   overflow: hidden;
   display: inline-block;
   color: var(--primary-clr);
+  font-size: 28px;
 }
 
 .typed-text {
@@ -30,5 +31,11 @@
   }
   50% {
     opacity: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .typewriter {
+    font-size: 32px;
   }
 }
