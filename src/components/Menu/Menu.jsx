@@ -14,10 +14,10 @@ export default function Menu() {
 
   return (
     <nav>
-      <div className="logo"><span className="gradient-text">Lisa B.</span></div>
+      <div className="logo"><span className="gradient-text"><a href="#section1">Lisa B.</a></span></div>
 
       <div className={`menu${menuActive ? ' active' : ''}`}>
-        <a href="/Hero" onClick={closeMenu}>Home</a>
+        <a href="#section1" onClick={closeMenu}>Home</a>
         <a href="#section2" onClick={closeMenu}>About Me</a>
         <a href="#section3" onClick={closeMenu}>Projects</a>
         <a href="#section4" onClick={closeMenu}>Contacts</a>
