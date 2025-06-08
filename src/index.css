@@ -7,7 +7,7 @@
   font-size: 16px;
 
   --primary-clr: #0a192f; /* header, footer, testo principale */
-  --secondary-clr: #0a192f; /* #3d5a80; elementi in evidenza, link, btns */
+  --secondary-clr: #3d5a80; /* elementi in evidenza, link, btns */
   --tertiary-clr: #0ea5e9 /* #79baff */;
   --bg-clr: #98c1d9; /* sfondi o sezioni elternate */
   --second-bg-clr: rgb(206, 233, 252); /* background neutro o bordi */
